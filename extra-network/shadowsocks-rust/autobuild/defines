@@ -6,3 +6,4 @@ PKGDES="A Rust port of shadowsocks, lightweight yet secured SOCKS5 proxy"
 
 USECLANG=1
 ABTYPE=rust
+ABSPLITDBG=0
