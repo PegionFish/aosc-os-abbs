@@ -1,9 +1,9 @@
-PKGNAME=linux-kernel-5.10.8
+PKGNAME=linux-kernel-5.10.10
 PKGSEC=kernel
 PKGDEP=""
-BUILDDEP="bc dracut git systemd-boot-friend"
+BUILDDEP="bc dracut git systemd-boot-friend pahole"
 BUILDDEP__AMD64="${BUILDDEP} grub"
-PKGDES="Generic Linux Kernel v5.10.8 for AOSC OS (Mainline)"
+PKGDES="Generic Linux Kernel v5.10.10 for AOSC OS (Mainline)"
 
 ABSTRIP=0
 ABELFDEP=0
